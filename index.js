@@ -6,6 +6,7 @@ app.use(express.json())
 app.use(cors())
 app.use(express.static('dist'))
 
+
 //aqui es como si crearamos una variable para ponerla en el formato de abajo, se crea la variable body que lo que tiene es la
 //info del body en la peticion
 morgan.token('body', (req) => {
